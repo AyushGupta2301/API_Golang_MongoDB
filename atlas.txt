@@ -1,3 +1,3 @@
 user : admin
 pw : 1357
-mongodb+srv://admin:1357@cluster0.qbbwc.mongodb.net/insta_backend_api?retryWrites=true&w=majority
+URI : mongodb+srv://admin:1357@cluster0.qbbwc.mongodb.net/insta_backend_api?retryWrites=true&w=majority
