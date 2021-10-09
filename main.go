@@ -136,7 +136,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("Connected to MongoDB!")
 	http.HandleFunc("/", mainpage) //just for testing the initialization
 	http.HandleFunc("/users", add_new_user)
 	http.HandleFunc("/users/", find_user)
